@@ -11,12 +11,12 @@ set age1(myage){
 }
 }
 class Student extends Person {
-	console.log(this.name + ' is studying')
+	console.log(this.name1 + ' is studying')
 }
 
 class Teacher extends Person {
 	function teach(){
-		console.log(this.name+ 'is teaching')
+		console.log(this.name1+ 'is teaching')
 	}
 }
 
